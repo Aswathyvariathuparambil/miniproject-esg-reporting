@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e8f5e8, #f1f8e9, #e8f5e8);
+  color: #2e7d32;
+}
+
+/* Glass card */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(76, 175, 80, 0.2);
+  margin: 20px 0;
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(45deg, #4caf50, #66bb6a);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
